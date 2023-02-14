@@ -5,7 +5,6 @@ import NewOrderPage from '../NewOrderPage/NewOrderPage';
 import AuthPage from '../AuthPage/AuthPage'
 import OrderHistoryPage from '../OrderHistoryPage/OrderHistoryPage'
 import NavBar from '../../components/NavBar'
-import LoginForm from '../../components/LoginForm/LoginForm';
 
 import { getUser } from '../../utilities/users-service';
 

@@ -2,7 +2,8 @@ import { checkToken } from "../../utilities/users-service"
 
 export default function OrderHistoryPage(){
     async function handleCheckToken(){
-        checkToken()        
+        checkToken()
+            .then(alert)
     }
 
     return (

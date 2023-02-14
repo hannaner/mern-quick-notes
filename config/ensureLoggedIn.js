@@ -5,3 +5,5 @@ function ensureLoggedIn(req, res, next){
         next()
     }
 }
+
+module.exports = ensureLoggedIn

@@ -52,7 +52,7 @@ async function login(req, res){
        if (passwordsMatch){
         res.json(createJWT(user))
        } else {
-        throw new Error("incorrect password!")
+        throw new Error()
        }
     } catch {
         res.status(400).json("email/passwords don't match!")
