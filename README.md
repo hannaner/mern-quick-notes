@@ -1,4 +1,4 @@
-### MERN infrastructure
+# MERN infrastructure
 
 This is a full stack template using Mongo, Express, React, and Node.
 
@@ -14,7 +14,7 @@ This is a full stack template using Mongo, Express, React, and Node.
 
 5. Update the `"name": "mern-infrastructure"` in **package.json** to the name of your project.
 
-6. Create a new repo on your personal GH account.
+6. Create a new repository on Github account.
 
 7. Copy the new GH repo's URL.
 
